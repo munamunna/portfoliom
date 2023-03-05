@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./first.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <link rel="stylesheet" href="./practice.css">
+      <link rel="stylesheet" href="./asset/css/main.css">
+      <link rel="stylesheet" href="./asset/css/swiper-bundle.min.css">
+</head>
+
+<body>
+  <div class="outer  ">
+
+    <nav class="navbar navbar-expand-lg navbar-dark   container">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="intro.html" rel="external">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html" rel="external">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html" rel="external">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" rel="external">Contact Me</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </nav>
+
+  </div>
+
+
+  <div class="row container-fluid bg-light">
+    <div class=" col-lg-2 col-sm-4"></div>
+
+    <div class="col-lg-5 col-sm-4">
+
+      <div class="hello">HI I am</div>
+      <div class="name">Muna PM</div>
+      <div class="about">Developer,Teacher,Dancer</div>
+      <div>
+        <p>I am an aspiring programmer ,getting trained by luminar technolab .I have strong technical skills particularly in Python basics,HTML,CSS,Bootstrap,GIT.now i eager to learn django.I have worked as a teacher as well.</p>
+      </div>
+      <div>
+        <a href="./image/muna_cv.pdf" download> <button
+            class="btn">Download CV</button></a>
+      </div>
+       <!-- Button trigger modal -->
+  <div>
+    <a href="#"><button type="button" class="btn mt-5" data-toggle="modal" data-target="#exampleModal">
+      Contact Info
+    </button></a>
+    </div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Muna PM</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body ">
+
+        <h4>contact Info</h4>
+        <div class="mt-3">
+        <i class="fa-solid fa-phone"></i> <label for="">phone:</label>
+        <label for="">9497098312</label>
+      </div>
+      <div class="mt-3">
+      <i class="fa-solid fa-location-dot"></i> <label for="">Address:</label>
+      <label for="">Kochi,Kerala</label>
+    </div>
+    <div class="mt-3">
+    <i class="fa-solid fa-envelope"></i> <label for="">Email:</label>
+    <label for="">munapm1@gmail.com</label>
+  </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class=" col-lg-5 col-sm-4">
+      <img class="img-fluid" src="./image/myimg.jpg" alt="">
+    </div>
+  </div>
+
+
+  <script src="./practice.js"></script>
+    <section class="portfolio section " id="portfolio">
+      <div class="recent">
+        <h2 class="section__tittle center mt-5">Most Recent Works</h2>
+      </div>
+        <span class="section__subtittle center"></span>
+        <div class="portfolio__container container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="portflio__content grid swiper-slide">
+                    
+                    <img src="./image/img.png" alt="" class="portfolio__img center">
+                
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__tittle">modern website</h3>
+                        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores error maiores saepe, quidem nostrum repudiandae deserunt et. Et cumque fugit
+                            nulla laudantium eveniet? Doloribus mollitia consequatur sapiente et commodi provident!</p>
+                        <a href="#" class="button--flex button--small portfolio__button text-white">Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+               
+
+                <div class="portflio__content grid swiper-slide">
+                    <img src="./image/img.png" alt="" class="portfolio__img center">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__tittle">brand design</h3>
+                        <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores error maiores saepe, quidem nostrum repudiandae deserunt et. Et cumque fugit
+                            nulla laudantium eveniet? Doloribus mollitia consequatur sapiente et commodi provident!</p>
+                            
+                        <a href="https://munamunna.github.io/projectfolio/" class="button--flex button--small portfolio__button text-white ">Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    
+                    </div>
+                </div>
+                
+           
+            </div>
+            <div class="swiper-button-next" >
+                <!-- <i class="uil uil-angle-right-b swiper-portfolio-icon"></i> -->
+            </div>
+                <div class="swiper-button-prev">
+                    <!-- <i class="uil uil-angle-left-b swiper-portfolio-icon"></i> -->
+                </div>
+                <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="container-fluid my-5">
+
+    <footer class="text-center text-lg-start" style="background-color: black;">
+      <div class="container d-flex justify-content-center py-5">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+          <i class="fa-brands fa-github"></i>
+        </button>
+        <a href="linkedin.com/in/muhammadmuna"><button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+            style="background-color: #54456b;">
+            <i class="fa-brands fa-linkedin"></i>
+          </button></a>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+          <i class="fab fa-instagram"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+          <i class="fab fa-twitter"></i>
+        </button>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="https://munapm1@gmail.com/">munapm1@gmail.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </div>
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./asset/css/swiper-bundle.min.css"></script>
+  <script src="./asset/js/main.js"></script>
+</body>
+
+</html>
